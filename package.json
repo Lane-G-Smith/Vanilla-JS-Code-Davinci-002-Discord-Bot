@@ -1,0 +1,25 @@
+{
+  "name": "Vanilla-JS-Codex-Discord-Bot",
+  "version": "1.0.0",
+  "description": "Code-Copilot",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Lane-G-Smith",
+  "license": "MIT",
+  "guildId": "",
+  "token": "",
+  "clientID": "",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "node": "^19.6.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
