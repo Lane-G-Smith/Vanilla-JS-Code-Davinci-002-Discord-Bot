@@ -28,7 +28,7 @@ const client = new Client({intents:
 
 // log in with token from .env file
 client.on('ready', () => {
-    console.log(`Fuck You!! Logged in as ${client.user.tag}!`)
+    console.log(`Codex Here, Logged in as ${client.user.tag}!`)
 });
 
 // function returns AI response every time text is sent to server
@@ -36,19 +36,20 @@ client.on('messageCreate', async function (message) {
     try {
         // ignore input from the bot itself
         if (message.author.bot) return;
+        // respond using these parameters
         const response = await openai.createCompletion({
             model: "code-davinci-002",
             prompt: `${message}`,
-            temperature: 1,
-            max_tokens: 500,
+            temperature: 0,
+            max_tokens: 400,
             top_p: 1,
             frequency_penalty: 0,
             presence_penalty: 0,
           });
-                  message.reply(`${completion.data.choices[0].message.content}`) 
-              }   catch (error) {
-                      console.log(error)
-                      }
+                message.reply(`${completion.data.choices[0].message.content}`) 
+        }   catch (error) {
+                console.log(error)
+            }
           });
 
 // log in with token from .env file
