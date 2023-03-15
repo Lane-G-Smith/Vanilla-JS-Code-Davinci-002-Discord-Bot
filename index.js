@@ -40,13 +40,13 @@ client.on('messageCreate', async function (message) {
         const response = await openai.createCompletion({
             model: "code-davinci-002",
             prompt: `${message}`,
-            temperature: 0,
-            max_tokens: 400,
+            temperature: 0.1,
+            max_tokens: 200,
             top_p: 1,
-            frequency_penalty: 0,
+            frequency_penalty: 0.25,
             presence_penalty: 0,
           });
-                message.reply(`${completion.data.choices[0].message.content}`) 
+                message.reply(`${response.data.choices[0].text}`) 
         }   catch (error) {
                 console.log(error)
             }
