@@ -40,7 +40,7 @@ git init
 ```
 ### Navigate to new git folder in terminal and clone this repository
 ```sh
-git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.git
+git clone https://github.com/Lane-G-Smith/Vanilla-JS-Codex2-Discord-Bot.git
 ```
 ### Navigate to Vanilla-JS-Codex2-Discord-Bot folder and install dependencies
 ```sh
