@@ -1,4 +1,4 @@
-<h1 align="center">Vanilla-JS-Codex2-Discord-Bot</h1>
+<h1 align="center">Vanilla-JS-Code-Davinci-002-Discord-Bot</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
@@ -9,14 +9,14 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model Code-Davinci-002. This bot can serve as an invaluable coding buddy and debugging tool.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model Code-Davinci-002 from OpenAI. This bot can serve as an invaluable coding buddy and debugging tool.
       </p>
      </td>
    </tr>
  </table>
 
 # 
-Vanilla-JS-Codex2-Discord-Bot installation and deloyment Instructions
+Vanilla-JS-Code-Davinci-002-Discord-Bot installation and deloyment Instructions
 
 ### Get the bot 'shell' from Discord. It's free, and it takes 5 minutes
 ```sh
@@ -40,13 +40,13 @@ git init
 ```
 ### Navigate to new git folder in terminal and clone this repository
 ```sh
-git clone https://github.com/Lane-G-Smith/Vanilla-JS-Codex2-Discord-Bot.git
+git clone https://github.com/Lane-G-Smith/Vanilla-JS-Code-Davinci-002-Discord-Bot.git
 ```
-### Navigate to Vanilla-JS-Codex2-Discord-Bot folder and install dependencies
+### Navigate to Vanilla-JS-Code-Davinci-002-Discord-Bot folder and install dependencies
 ```sh
 npm install
 ```
-### Create new file in Vanilla-JS-Codex2-Discord-Bot folder and name it .env
+### Create new file in Vanilla-JS-Code-Davinci-002-Discord-Bot folder and name it .env
 ### Place your secret Discord bot token from the first step into the .env file
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
