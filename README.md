@@ -9,7 +9,7 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model Codex-002. This bot can serve as an invaluable coding buddy and debugging tool.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model Code-Davinci-002. This bot can serve as an invaluable coding buddy and debugging tool.
       </p>
      </td>
    </tr>
