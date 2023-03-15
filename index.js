@@ -28,7 +28,7 @@ const client = new Client({intents:
 
 // log in with token from .env file
 client.on('ready', () => {
-    console.log(`Codex here, logged in as ${client.user.tag}!`)
+    console.log(`Code-Davinci-002 here, logged in as ${client.user.tag}!`)
 });
 
 // function returns AI response every time text is sent to server
