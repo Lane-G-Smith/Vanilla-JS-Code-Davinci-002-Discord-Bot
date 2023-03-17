@@ -43,12 +43,12 @@ client.on('messageCreate', async function (message) {
             temperature: 0.1,
             max_tokens: 200,
             top_p: 1,
-            frequency_penalty: 0.25,
+            frequency_penalty: 0.2,
             presence_penalty: 0,
           });
                 message.reply(`${response.data.choices[0].text}`) 
         }   catch (error) {
-                console.log(error)
+                message.reply(`${error}`)
             }
           });
 
