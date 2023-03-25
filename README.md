@@ -1,4 +1,4 @@
-<h1 align="center">Vanilla-JS-Code-Davinci-002-Discord-Bot (Code-Davinci API Now Depracated)</h1>
+<h1 align="center">Vanilla-JS-Code-Davinci-002-Discord-Bot (Code-Davinci API Now Deprecated)</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
