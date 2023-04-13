@@ -15,8 +15,9 @@
    </tr>
  </table>
 
-# 
-Vanilla-JS-Code-Davinci-002-Discord-Bot installation and deloyment Instructions
+# Vanilla-JS-Code-Davinci-002-Discord-Bot installation and deloyment Instructions
+
+# !!This bot does NOT respond to DMs, it must be in a server with you!!
 
 ### Get the bot 'shell' from Discord. It's free, and it takes 5 minutes
 ```sh
